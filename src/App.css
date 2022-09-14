@@ -15,11 +15,12 @@ body {
 }
 
 .main {
-  height:780px;
+  max-height:780px;
   width: 317px;
   display: flex;
   flex-direction:column;
-  align-items: center; 
+  align-items: flex-end; 
+  border-radius: 10px;
 }
 
 .footer {
@@ -30,22 +31,21 @@ body {
   justify-content: center;
   align-items: center; 
   align-self: flex-end;
+  border-radius: 0 0 10px 10px;
 }
 
 .footer-icons {
   height: 40px;
-
-  color: whitesmoke;
 }
 
 .footer-icon {
   padding: 5px 5px;
-  background-color: #8888;
+  background-color: #918E9B;
   border-radius: 2px;
   margin: 10px;
 }
 
 .footer-icon:hover {
-  filter: drop-shadow(0 0 10px rgb(255, 255, 255));
-  background-color: rgba(168, 168, 168, 0.533);
+  filter: drop-shadow(0 0 10px #ffff);
+  background-color: #ffff;
 }
