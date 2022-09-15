@@ -15,9 +15,7 @@
     "react-feather": "^2.0.10"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.18.9",
     "@vitejs/plugin-react": "^2.1.0",
-    "babel-eslint": "^10.1.0",
     "eslint": "^8.23.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
