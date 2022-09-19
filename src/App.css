@@ -27,7 +27,7 @@ body {
 .footer {
   height: 80px;
   width: 317px;
-  background-color: black;
+  background-color: #161619;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,18 +50,18 @@ body {
   background-color: #ffff;
 }
 
-.interests {
+.interests, .about {
   text-align: left;
-  padding: 30px;
+  padding: 5px 30px;
   color: #ffff;
   line-height: 90%;
 }
 
-.interests-tile {
+.interests-tile, .about-tile {
   font-size: 16px;
   font-weight: 700;
 }
 
-.interests-content {
+.interests-content, .about-content {
   font-size: 10px;
 }
