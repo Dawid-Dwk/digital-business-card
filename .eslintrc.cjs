@@ -1,4 +1,15 @@
 module.exports = {
+  
+   "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "requireConfigFile": false,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "impliedStrict": true,
+      "classes": true
+    }
+  },
   env: {
     browser: true,
     es2021: true,
@@ -8,12 +19,6 @@ module.exports = {
     'airbnb',
     'plugin:prettier/recommended',
   ],
-  overrides: [
-  ],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-  },
   plugins: [
     "prettier", "react",
   ],
