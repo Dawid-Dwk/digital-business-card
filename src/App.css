@@ -54,7 +54,7 @@ body {
   text-align: left;
   padding: 5px 30px;
   color: #ffff;
-  line-height: 90%;
+  line-height: 0.9em;
 }
 
 .interests-tile, .about-tile {
@@ -64,4 +64,77 @@ body {
 
 .interests-content, .about-content {
   font-size: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-foto {
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.info--full-name {
+  margin-bottom: 5px;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+.info-job {
+  margin-bottom: 5px;
+  color: #F3BF99;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+.info-website {
+  margin-bottom: 15px;
+  color: #F5F5F5;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+.info-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 30px;
+}
+
+.info--mail-href, .info--linkedin-href {
+  width: 100%;
+}
+
+.info--mail-button {
+  height: 34px;
+  width: 115px;
+  background-color: #ffff;
+}
+
+.info--linkedin-button {
+  height: 34px;
+  width: 115px;
+  background-color: #5093E2;
+}
+
+.info--mail-button, .info--linkedin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.info--mail-icon, .info--linkedin-icon {
+  margin-right: 5px;
+}
+
+.info--linkedin-icon {
+  background-color: #F5F5F5;
+  border-radius: 2px;
 }
